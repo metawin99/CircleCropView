@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C565206227F791F997F461 /* Pods_CircleCropViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F6031C8F42AB0FE476BEE7 /* Pods_CircleCropViewUITests.framework */; };
+		5D7A4F2369B37FF721A70F65 /* Pods_CircleCropView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AECB918EBF838431418739 /* Pods_CircleCropView.framework */; };
+		7C0A11D82198530A00323349 /* WhiteGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0A11D72198530900323349 /* WhiteGrid.png */; };
+		7CF616A22197107D002995DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616A12197107D002995DB /* AppDelegate.swift */; };
+		7CF616A42197107D002995DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616A32197107D002995DB /* ViewController.swift */; };
+		7CF616A72197107D002995DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF616A52197107D002995DB /* Main.storyboard */; };
+		7CF616A921971080002995DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF616A821971080002995DB /* Assets.xcassets */; };
+		7CF616AC21971080002995DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF616AA21971080002995DB /* LaunchScreen.storyboard */; };
+		7CF616B721971080002995DB /* CircleCropViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616B621971080002995DB /* CircleCropViewTests.swift */; };
+		7CF616C221971080002995DB /* CircleCropViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616C121971080002995DB /* CircleCropViewUITests.swift */; };
+		7CF616D3219710C2002995DB /* CircleCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616D2219710C2002995DB /* CircleCropView.swift */; };
+		7CF616D5219712A5002995DB /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616D4219712A5002995DB /* CropViewController.swift */; };
+		B24CC360BACB00B45DEFCE80 /* Pods_CircleCropViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1244B6C4F6677B86918EAC4 /* Pods_CircleCropViewTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF616B321971080002995DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF616962197107D002995DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF6169D2197107D002995DB;
+			remoteInfo = CircleCropView;
+		};
+		7CF616BE21971080002995DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF616962197107D002995DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF6169D2197107D002995DB;
+			remoteInfo = CircleCropView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1025E55974EF6B93B7141981 /* Pods-CircleCropViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropViewUITests/Pods-CircleCropViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1405A605B14C96066C3D58F2 /* Pods-CircleCropView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropView/Pods-CircleCropView.debug.xcconfig"; sourceTree = "<group>"; };
+		20AECB918EBF838431418739 /* Pods_CircleCropView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleCropView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA0D238A2453D8D4A6C9D68 /* Pods-CircleCropViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropViewUITests/Pods-CircleCropViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4AA6FC3916E8E4EDCA762F25 /* Pods-CircleCropView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropView/Pods-CircleCropView.release.xcconfig"; sourceTree = "<group>"; };
+		4C510771CA9160B9130F3ED9 /* Pods-CircleCropViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropViewTests/Pods-CircleCropViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77F6031C8F42AB0FE476BEE7 /* Pods_CircleCropViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleCropViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0A11D72198530900323349 /* WhiteGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteGrid.png; sourceTree = "<group>"; };
+		7CF6169E2197107D002995DB /* CircleCropView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleCropView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF616A12197107D002995DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CF616A32197107D002995DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CF616A62197107D002995DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CF616A821971080002995DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF616AB21971080002995DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CF616AD21971080002995DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF616B221971080002995DB /* CircleCropViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCropViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF616B621971080002995DB /* CircleCropViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropViewTests.swift; sourceTree = "<group>"; };
+		7CF616B821971080002995DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF616BD21971080002995DB /* CircleCropViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCropViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF616C121971080002995DB /* CircleCropViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropViewUITests.swift; sourceTree = "<group>"; };
+		7CF616C321971080002995DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF616D2219710C2002995DB /* CircleCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCropView.swift; sourceTree = "<group>"; };
+		7CF616D4219712A5002995DB /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		D09C6FA3834D18461E7D89CB /* Pods-CircleCropViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropViewTests/Pods-CircleCropViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1244B6C4F6677B86918EAC4 /* Pods_CircleCropViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleCropViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF6169B2197107D002995DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7A4F2369B37FF721A70F65 /* Pods_CircleCropView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616AF21971080002995DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24CC360BACB00B45DEFCE80 /* Pods_CircleCropViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616BA21971080002995DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C565206227F791F997F461 /* Pods_CircleCropViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B06A3B4D1B33B6282BA49F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1405A605B14C96066C3D58F2 /* Pods-CircleCropView.debug.xcconfig */,
+				4AA6FC3916E8E4EDCA762F25 /* Pods-CircleCropView.release.xcconfig */,
+				4C510771CA9160B9130F3ED9 /* Pods-CircleCropViewTests.debug.xcconfig */,
+				D09C6FA3834D18461E7D89CB /* Pods-CircleCropViewTests.release.xcconfig */,
+				1025E55974EF6B93B7141981 /* Pods-CircleCropViewUITests.debug.xcconfig */,
+				3BA0D238A2453D8D4A6C9D68 /* Pods-CircleCropViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CF616952197107D002995DB = {
+			isa = PBXGroup;
+			children = (
+				7CF616A02197107D002995DB /* CircleCropView */,
+				7CF616B521971080002995DB /* CircleCropViewTests */,
+				7CF616C021971080002995DB /* CircleCropViewUITests */,
+				7CF6169F2197107D002995DB /* Products */,
+				10B06A3B4D1B33B6282BA49F /* Pods */,
+				DF96047F59E57B377EB9248F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF6169F2197107D002995DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF6169E2197107D002995DB /* CircleCropView.app */,
+				7CF616B221971080002995DB /* CircleCropViewTests.xctest */,
+				7CF616BD21971080002995DB /* CircleCropViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF616A02197107D002995DB /* CircleCropView */ = {
+			isa = PBXGroup;
+			children = (
+				7C0A11D72198530900323349 /* WhiteGrid.png */,
+				7CF616CF2197108E002995DB /* CircleCropView */,
+				7CF616A12197107D002995DB /* AppDelegate.swift */,
+				7CF616A32197107D002995DB /* ViewController.swift */,
+				7CF616A52197107D002995DB /* Main.storyboard */,
+				7CF616A821971080002995DB /* Assets.xcassets */,
+				7CF616AA21971080002995DB /* LaunchScreen.storyboard */,
+				7CF616AD21971080002995DB /* Info.plist */,
+				7CF616D4219712A5002995DB /* CropViewController.swift */,
+			);
+			path = CircleCropView;
+			sourceTree = "<group>";
+		};
+		7CF616B521971080002995DB /* CircleCropViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF616B621971080002995DB /* CircleCropViewTests.swift */,
+				7CF616B821971080002995DB /* Info.plist */,
+			);
+			path = CircleCropViewTests;
+			sourceTree = "<group>";
+		};
+		7CF616C021971080002995DB /* CircleCropViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF616C121971080002995DB /* CircleCropViewUITests.swift */,
+				7CF616C321971080002995DB /* Info.plist */,
+			);
+			path = CircleCropViewUITests;
+			sourceTree = "<group>";
+		};
+		7CF616CF2197108E002995DB /* CircleCropView */ = {
+			isa = PBXGroup;
+			children = (
+				7CF616D2219710C2002995DB /* CircleCropView.swift */,
+			);
+			path = CircleCropView;
+			sourceTree = "<group>";
+		};
+		DF96047F59E57B377EB9248F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AECB918EBF838431418739 /* Pods_CircleCropView.framework */,
+				D1244B6C4F6677B86918EAC4 /* Pods_CircleCropViewTests.framework */,
+				77F6031C8F42AB0FE476BEE7 /* Pods_CircleCropViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF6169D2197107D002995DB /* CircleCropView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF616C621971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropView" */;
+			buildPhases = (
+				FE7B91703A15F71529418764 /* [CP] Check Pods Manifest.lock */,
+				7CF6169A2197107D002995DB /* Sources */,
+				7CF6169B2197107D002995DB /* Frameworks */,
+				7CF6169C2197107D002995DB /* Resources */,
+				AE259952E306449AB439F70C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleCropView;
+			productName = CircleCropView;
+			productReference = 7CF6169E2197107D002995DB /* CircleCropView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF616B121971080002995DB /* CircleCropViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF616C921971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropViewTests" */;
+			buildPhases = (
+				D337744B0B2B98D0672B43B3 /* [CP] Check Pods Manifest.lock */,
+				7CF616AE21971080002995DB /* Sources */,
+				7CF616AF21971080002995DB /* Frameworks */,
+				7CF616B021971080002995DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF616B421971080002995DB /* PBXTargetDependency */,
+			);
+			name = CircleCropViewTests;
+			productName = CircleCropViewTests;
+			productReference = 7CF616B221971080002995DB /* CircleCropViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CF616BC21971080002995DB /* CircleCropViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF616CC21971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropViewUITests" */;
+			buildPhases = (
+				6ADAB6ABA606673724EB7CDB /* [CP] Check Pods Manifest.lock */,
+				7CF616B921971080002995DB /* Sources */,
+				7CF616BA21971080002995DB /* Frameworks */,
+				7CF616BB21971080002995DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF616BF21971080002995DB /* PBXTargetDependency */,
+			);
+			name = CircleCropViewUITests;
+			productName = CircleCropViewUITests;
+			productReference = 7CF616BD21971080002995DB /* CircleCropViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF616962197107D002995DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Bhavesh Chaudhari";
+				TargetAttributes = {
+					7CF6169D2197107D002995DB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7CF616B121971080002995DB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7CF6169D2197107D002995DB;
+					};
+					7CF616BC21971080002995DB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7CF6169D2197107D002995DB;
+					};
+				};
+			};
+			buildConfigurationList = 7CF616992197107D002995DB /* Build configuration list for PBXProject "CircleCropView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF616952197107D002995DB;
+			productRefGroup = 7CF6169F2197107D002995DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF6169D2197107D002995DB /* CircleCropView */,
+				7CF616B121971080002995DB /* CircleCropViewTests */,
+				7CF616BC21971080002995DB /* CircleCropViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF6169C2197107D002995DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF616AC21971080002995DB /* LaunchScreen.storyboard in Resources */,
+				7CF616A921971080002995DB /* Assets.xcassets in Resources */,
+				7CF616A72197107D002995DB /* Main.storyboard in Resources */,
+				7C0A11D82198530A00323349 /* WhiteGrid.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616B021971080002995DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616BB21971080002995DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ADAB6ABA606673724EB7CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CircleCropViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE259952E306449AB439F70C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CircleCropView/Pods-CircleCropView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleCropView/Pods-CircleCropView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D337744B0B2B98D0672B43B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CircleCropViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7B91703A15F71529418764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CircleCropView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF6169A2197107D002995DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF616A42197107D002995DB /* ViewController.swift in Sources */,
+				7CF616D3219710C2002995DB /* CircleCropView.swift in Sources */,
+				7CF616D5219712A5002995DB /* CropViewController.swift in Sources */,
+				7CF616A22197107D002995DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616AE21971080002995DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF616B721971080002995DB /* CircleCropViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF616B921971080002995DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF616C221971080002995DB /* CircleCropViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF616B421971080002995DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF6169D2197107D002995DB /* CircleCropView */;
+			targetProxy = 7CF616B321971080002995DB /* PBXContainerItemProxy */;
+		};
+		7CF616BF21971080002995DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF6169D2197107D002995DB /* CircleCropView */;
+			targetProxy = 7CF616BE21971080002995DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF616A52197107D002995DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF616A62197107D002995DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CF616AA21971080002995DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF616AB21971080002995DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF616C421971080002995DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF616C521971080002995DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF616C721971080002995DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1405A605B14C96066C3D58F2 /* Pods-CircleCropView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CF616C821971080002995DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA6FC3916E8E4EDCA762F25 /* Pods-CircleCropView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CF616CA21971080002995DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C510771CA9160B9130F3ED9 /* Pods-CircleCropViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCropView.app/CircleCropView";
+			};
+			name = Debug;
+		};
+		7CF616CB21971080002995DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09C6FA3834D18461E7D89CB /* Pods-CircleCropViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCropView.app/CircleCropView";
+			};
+			name = Release;
+		};
+		7CF616CD21971080002995DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025E55974EF6B93B7141981 /* Pods-CircleCropViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleCropView;
+			};
+			name = Debug;
+		};
+		7CF616CE21971080002995DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA0D238A2453D8D4A6C9D68 /* Pods-CircleCropViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleCropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bhavesh.CircleCropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleCropView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF616992197107D002995DB /* Build configuration list for PBXProject "CircleCropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF616C421971080002995DB /* Debug */,
+				7CF616C521971080002995DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF616C621971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF616C721971080002995DB /* Debug */,
+				7CF616C821971080002995DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF616C921971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF616CA21971080002995DB /* Debug */,
+				7CF616CB21971080002995DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF616CC21971080002995DB /* Build configuration list for PBXNativeTarget "CircleCropViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF616CD21971080002995DB /* Debug */,
+				7CF616CE21971080002995DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF616962197107D002995DB /* Project object */;
+}
