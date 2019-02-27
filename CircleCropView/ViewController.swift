@@ -11,15 +11,13 @@ import UIKit
 class ViewController: UIViewController,UIImagePickerControllerDelegate , UINavigationControllerDelegate {
 
     let picker = UIImagePickerController()
+    
     @IBOutlet var imgView : UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         picker.delegate = self
         picker.sourceType = .photoLibrary
-        
-      
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -27,8 +25,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate , UINavig
         imgView.clipsToBounds = true
     }
 
-    
-    
     @IBAction func selectImageClick(sender:UIButton) {
         self.present(picker, animated: true, completion: nil)
     }

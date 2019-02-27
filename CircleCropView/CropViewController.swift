@@ -12,8 +12,6 @@ import Foundation
 import UIKit
 import SnapKit
 
-
-
 class CropViewController: UIViewController {
     
     var image: UIImage
@@ -43,10 +41,21 @@ class CropViewController: UIViewController {
         return button
     }()
     
+    var cancelButton : UIButton = {
+        let button = UIButton()
+        button.setTitle("CANCEL", for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.backgroundColor = UIColor.white
+        button.layer.cornerRadius = 10
+        button.addTarget(self, action: #selector(cancelClick), for: .touchUpInside)
+        return button
+    }()
+    
     var titleLabel : UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 18, weight: UIFont.Weight(rawValue: 10))
-        label.text = "PROFILE PICTURE"
+        label.text = "" 
         label.textColor = UIColor.white
         label.backgroundColor  = UIColor.clear
         return label
@@ -66,12 +75,16 @@ class CropViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("Print join to viewDidLoad")
+        
         view.addSubview(scrollView)
         view.addSubview(circleView)
         view.addSubview(okButton)
+        view.addSubview(cancelButton)
         view.addSubview(backButton)
         view.addSubview(titleLabel)
         
+        scrollView.backgroundColor = .black
         
         scrollView.addSubview(imageView)
         scrollView.contentSize = image.size
@@ -86,13 +99,23 @@ class CropViewController: UIViewController {
             make.edges.equalTo(scrollView).inset(view.safeAreaInsets)
         }
         
+        let viewFrame = self.view.frame.width / 2
+        
         okButton.snp.makeConstraints { (make) in
             make.width.equalTo(140)
             make.bottom.equalTo(-30)
             make.height.equalTo(30)
-            make.centerX.equalTo(self.view)
+            make.centerX.equalTo(viewFrame + 100)
         }
         
+        cancelButton.snp.makeConstraints { (make) in
+            make.width.equalTo(140)
+            make.bottom.equalTo(-30)
+            make.height.equalTo(30)
+            make.centerX.equalTo(viewFrame - 100)
+        }
+        
+        print("pai test", self.view)
         
         titleLabel.snp.makeConstraints { (make) in
             make.centerX.equalTo(self.view)
@@ -156,6 +179,10 @@ class CropViewController: UIViewController {
         let scaled = shift.applying(CGAffineTransform(scaleX: 1.0 / self.scrollView.zoomScale, y: 1.0 / self.scrollView.zoomScale))
         let newImage = self.image.imageCropped(toRect: scaled)
         self.completion(newImage)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @objc func cancelClick(sender:UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
     

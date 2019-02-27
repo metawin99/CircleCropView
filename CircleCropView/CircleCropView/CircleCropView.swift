@@ -37,11 +37,11 @@ class CircleCropView: UIView {
         context.addEllipse(in: holeInset);
         context.clip();
         context.clear(holeInset);
-        context.draw(UIImage(named: "WhiteGrid.png")!.cgImage!, in: holeInset)
         context.setFillColor( UIColor.clear.cgColor);
         context.fill( holeInset);
         context.setStrokeColor(UIColor.white.cgColor)
         context.strokeEllipse(in: holeInset)
         context.restoreGState()
+        
     }
 }

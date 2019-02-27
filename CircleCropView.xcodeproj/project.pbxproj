@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		03C565206227F791F997F461 /* Pods_CircleCropViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F6031C8F42AB0FE476BEE7 /* Pods_CircleCropViewUITests.framework */; };
 		5D7A4F2369B37FF721A70F65 /* Pods_CircleCropView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AECB918EBF838431418739 /* Pods_CircleCropView.framework */; };
-		7C0A11D82198530A00323349 /* WhiteGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0A11D72198530900323349 /* WhiteGrid.png */; };
 		7CF616A22197107D002995DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616A12197107D002995DB /* AppDelegate.swift */; };
 		7CF616A42197107D002995DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF616A32197107D002995DB /* ViewController.swift */; };
 		7CF616A72197107D002995DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF616A52197107D002995DB /* Main.storyboard */; };
@@ -47,7 +46,6 @@
 		4AA6FC3916E8E4EDCA762F25 /* Pods-CircleCropView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropView/Pods-CircleCropView.release.xcconfig"; sourceTree = "<group>"; };
 		4C510771CA9160B9130F3ED9 /* Pods-CircleCropViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleCropViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleCropViewTests/Pods-CircleCropViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		77F6031C8F42AB0FE476BEE7 /* Pods_CircleCropViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleCropViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C0A11D72198530900323349 /* WhiteGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteGrid.png; sourceTree = "<group>"; };
 		7CF6169E2197107D002995DB /* CircleCropView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleCropView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF616A12197107D002995DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF616A32197107D002995DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 		7CF616A02197107D002995DB /* CircleCropView */ = {
 			isa = PBXGroup;
 			children = (
-				7C0A11D72198530900323349 /* WhiteGrid.png */,
 				7CF616CF2197108E002995DB /* CircleCropView */,
 				7CF616A12197107D002995DB /* AppDelegate.swift */,
 				7CF616A32197107D002995DB /* ViewController.swift */,
@@ -293,7 +290,6 @@
 				7CF616AC21971080002995DB /* LaunchScreen.storyboard in Resources */,
 				7CF616A921971080002995DB /* Assets.xcassets in Resources */,
 				7CF616A72197107D002995DB /* Main.storyboard in Resources */,
-				7C0A11D82198530A00323349 /* WhiteGrid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = CircleCropView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -591,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = CircleCropView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
